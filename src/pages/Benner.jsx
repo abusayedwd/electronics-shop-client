@@ -58,7 +58,7 @@ const Benner = () => {
 
 
         return (
-                <div className=" grid md:grid-cols-2 gap-3 text-center py-8 h-60 mb-28">
+                <div className=" grid md:grid-cols-2 gap-3 text-center py-8 h-80 mb-28">
                         
                         <div className='mt-12 px-6'>
                         <motion.div
