@@ -12,10 +12,8 @@
 // import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import React from 'react';
 import { motion } from 'framer-motion';
-import iphone from '../../public/iphone14.jpg'
-import appleWatch from '../../public/apple watch.jpg'
-import watch from '../../public/watch1.jpg'
-import { fadein } from '../hooks/fadein';
+ 
+import { fadein } from '../../../hooks/fadein';
 import { useEffect, useState } from 'react';
 import './Benner.css';
 import TextTransition, { presets } from 'react-text-transition';
@@ -58,7 +56,7 @@ const Benner = () => {
 
 
         return (
-                <div className=" grid md:grid-cols-2 gap-3 text-center py-8 h-80 mb-28">
+                <div className=" grid md:grid-cols-2 gap-3 text-center py-8 ">
                         
                         <div className='mt-12 px-6'>
                         <motion.div
@@ -68,8 +66,9 @@ const Benner = () => {
                                 viewport={{ once: false, amount: 0.7 }}
                                 >
                                <p className='text-xl text-blue-400'>Entire big collection</p> 
-                               <h1  className='text-2xl font-bold uppercase'>shop wise with price Comparisons</h1>
+                               <h1  className='text-3xl font-bold uppercase mt-4'>shop wise with price  <br /> Comparisons</h1>
                                </motion.div>
+                                
 
                                <TypeAnimation
                                         sequence={[
@@ -89,15 +88,15 @@ const Benner = () => {
                                         />
                                         <br />
 
-                               <motion.button className="btn btn-outline btn-primary"
-                               variants={fadein("right", 0.8)}
+                               <motion.button className="btn btn-outline btn-primary mr-2"
+                               variants={fadein("right", 2.2)}
                                initial="hidden"
                                whileInView={"show"}
                                viewport={{ once: false, amount: 0.7 }}
                                >Buy Now</motion.button>
 
                              <motion.button className="btn btn-outline btn-secondary"
-                             variants={fadein("left", 0.8)}
+                             variants={fadein("left", 2.2)}
                              initial="hidden"
                              whileInView={"show"}
                              viewport={{ once: false, amount: 0.7 }}

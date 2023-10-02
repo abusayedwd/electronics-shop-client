@@ -1,12 +1,14 @@
-import React from 'react';
+ 
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
   const navitem = <>
-  <li className='font-bold'>Home</li>
-  <li className='font-bold px-2'>about</li>
-  <li className='font-bold'>Blogs</li>
+  <li className='font-bold'><Link>Home</Link></li>
+  <li className='font-bold'><Link>About</Link></li>
+  <li className='font-bold'><Link>blogs</Link></li>
+  <li className='font-bold'><Link>allItem</Link></li>
+   
    
    </>
         return (
