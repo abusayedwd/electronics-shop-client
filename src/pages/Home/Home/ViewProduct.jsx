@@ -19,14 +19,15 @@ const ViewProduct = () => {
                        <h1 className='text-2xl font-bold p-6'>Your Recently Viewed Products</h1> 
 
                        <Swiper
-        slidesPerView={5}
+         slidesPerView={5}
+         
         centeredSlides={true}
         spaceBetween={30}
         grabCursor={true}
         pagination={{
           clickable: true,
         }}
-        className='bg-white w-[90%] mx-auto shadow-xl flex items-center'
+        className='bg-white w-[90%] grid md:grid-cols-5 grid-cols-3  mx-auto shadow-xl'
          
       >
         <SwiperSlide>

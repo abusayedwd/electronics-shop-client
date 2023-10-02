@@ -1,0 +1,38 @@
+.container { 
+        margin: 0 auto; 
+        border-radius: 5px;
+      } 
+      .tab{
+         border: none;
+         background-color: white;
+        
+      } 
+      
+      .button { 
+        margin-left: 16px;
+         
+        text-align: center;
+        cursor: pointer;
+        border-radius:3px;
+        font-weight: 500;
+         
+      }
+      .button:hover{
+        border-bottom: 3px solid #007bff; 
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        color: burlywood;
+        font-weight: 700;
+      }
+      .button.active { 
+        border-bottom: 3px solid #007bff; 
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        font-weight: 700;
+        color: burlywood;
+}
+      
+      .content {
+        padding: 10px;
+      }
+      

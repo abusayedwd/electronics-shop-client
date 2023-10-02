@@ -1,0 +1,67 @@
+[
+         
+        {
+          "id": 2,
+          "name": "Black Camera",
+          "price": 29.95,
+          "image": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+          "new_price": 24.95
+        },
+        {
+          "id": 3,
+          "name": "JBL Xtreme",
+          "price": 14.99,
+          "image": "https://tse3.mm.bing.net/th?id=OIP.oXUF2v1T31O_PFSOtRGy6wHaHa&pid=Api&P=0&h=220",
+          "new_price": 11.99
+        },
+        {
+          "id": 4,
+          "name": "Xpreed Watch",
+          "price": 49.99,
+          "image": "https://tse2.mm.bing.net/th?id=OIP.MYcEnNzxgC8UkyJxDnmQOAHaMH&pid=Api&P=0&h=220",
+          "new_price": 39.99
+        },
+        {
+          "id": 5,
+          "name": "KidHeadphone",
+          "price": 9.99,
+          "image": "https://i5.walmartimages.com/asr/a5531834-0c0f-43b7-8be6-6bf2315424f4_1.8e5fa0bdcaa7094e4c4dbf7d327041b3.jpeg",
+          "new_price": 7.99
+        },
+        {
+          "id": 6,
+          "name": "Xpeed iPhone",
+          "price": 39.99,
+          "image": "https://tse2.mm.bing.net/th?id=OIP.hiwVpc2QtPCAyrwD82cSugHaE7&pid=Api&P=0&h=220",
+          "new_price": 34.99
+        },
+        {
+          "id": 7,
+          "name": "Apple laptop",
+          "price": 24.95,
+          "image": "https://tse2.mm.bing.net/th?id=OIP.UMg6uiHdpndudR6Q5LDMYwHaEL&pid=Api&P=0&h=220",
+          "new_price": 19.95
+        },
+        {
+          "id": 8,
+          "name": "Smart HP",
+          "price": 59.99,
+          "image": "https://tse1.mm.bing.net/th?id=OIP.mk93Zdfnvi1EUQlVdWT90QHaHa&pid=Api&P=0&h=220",
+          "new_price": 49.99
+        },
+        {
+          "id": 9,
+          "name": "Pocket Watch",
+          "price": 12.99,
+          "image": "https://www.styleskier.com/wp-content/uploads/2017/08/the-eltham-gold-mechanical-open-face-pocket-watch-iesherx-.jpg",
+          "new_price": 9.99
+        },
+        {
+          "id": 10,
+          "name": "USB Speaker",
+          "price": 34.99,
+          "image": "https://tse3.mm.bing.net/th?id=OIP.obM4aXk7W17sZ6yhC230ygHaHa&pid=Api&P=0&h=220",
+          "new_price": 29.99
+        }
+      ]
+      
