@@ -1,4 +1,5 @@
  import Benner from './Home/Home/Benner'
+import BestDeal from './Home/Home/BestDeal';
 import CategoryItem from "./Home/Home/CategoryItem";
 import Collection from './Home/Home/Collection';
 import Features from './Home/Home/Features';
@@ -12,6 +13,7 @@ const Home = () => {
                        <ViewProduct></ViewProduct>
                        <Features></Features>
                        <Collection></Collection>
+                       <BestDeal></BestDeal>
                 </div>
         );
 };

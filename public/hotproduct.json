@@ -4,42 +4,48 @@
           "name": "apple 15pro",
           "price": 49.99,
           "image": "https://tse1.mm.bing.net/th?id=OIP.JCTsXcj9bUIoYyNktjgXZwHaHa&pid=Api&P=0&h=220",
-          "new-price": 39.99
+          "new_price": 39.99,
+          "rating":5
         },
         {
           "id": 2,
           "name": "JBL Xtreme",
           "price": 14.99,
           "image": "https://tse3.mm.bing.net/th?id=OIP.oXUF2v1T31O_PFSOtRGy6wHaHa&pid=Api&P=0&h=220",
-          "new-price": 11.99
+          "new_price": 11.99,
+          "rating":4.9
         },
         {
           "id": 3,
           "name": "Smart HP",
           "price": 59.99,
           "image": "https://tse1.mm.bing.net/th?id=OIP.mk93Zdfnvi1EUQlVdWT90QHaHa&pid=Api&P=0&h=220",
-          "new-price": 49.99
+          "new_price": 49.99,
+          "rating":3.8
         },
         {
           "id": 4,
           "name": "Black Camera",
           "price": 29.95,
           "image": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
-          "new-price": 24.95
+          "new_price": 24.95,
+          "rating":4.3
         },
         {
           "id": 5,
           "name": "HeadphoneCX",
           "price": 14.99,
           "image": "https://i5.walmartimages.com/asr/41e14822-1e5d-4f7f-9bda-3bc5f264d4a8.695e8ae876b53efaebf555e6b7488ae6.jpeg",
-          "new-price": 11.99
+          "new_price": 11.99,
+          "rating":5
         },
         {
           "id": 6,
           "name": "Projector",
           "price": 29.95,
           "image": "https://i5.walmartimages.com/asr/1a10f6a2-4024-4f55-ac4f-e4b72c1ced26.68ad50530d68bcc4b77555d201cc284f.jpeg",
-          "new-price": 24.95
+          "new_price": 24.95,
+          "rating":4.6
         }
          
           

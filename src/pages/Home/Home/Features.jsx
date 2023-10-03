@@ -7,6 +7,7 @@ import { FaAngleLeft, FaAngleRight } from 'react-icons/fa6';
 import { Progress } from 'react-sweet-progress';
 import "react-sweet-progress/lib/style.css";
 import Timercount from '../../../shared/Timercount';
+import './Collection.css'
 
 const Features = () => {
         const initialTime = 36000; 
@@ -105,7 +106,7 @@ const Features = () => {
                                 whileInView={"show"}
                                 viewport={{ once: false, amount: 0.7 }}
                         >
-                                <img className='h-32 w-32 bg-white mx-auto' src={feature.image} alt="" />
+                                <img className='h-32 cade w-32 bg-white mx-auto' src={feature.image} alt="" />
                                 <h1 className='text-center'>{feature.name}</h1>
                                 <div className='flex items-center gap-4 justify-center'>
                                 <del className='text-red-400 font-semibold'>${feature.price}</del>
@@ -126,7 +127,7 @@ const Features = () => {
                          whileInView={"show"}
                          viewport={{ once: false, amount: 0.7 }}
                  >
-                         <img className='h-32 w-32 bg-white mx-auto' src={hotsel.image} alt="" />
+                         <img className='h-32 cade w-32 bg-white mx-auto' src={hotsel.image} alt="" />
                          <h1 className='text-center'>{hotsel.name}</h1>
                          <div className='flex items-center gap-4 justify-center'>
                          <del className='text-red-400 font-semibold'>${hotsel.price}</del>
@@ -147,7 +148,7 @@ const Features = () => {
                          whileInView={"show"}
                          viewport={{ once: false, amount: 0.7 }}
                  >
-                         <img className='h-32 w-32 bg-white mx-auto' src={tread.image} alt="" />
+                         <img className='h-32 w-32 cade bg-white mx-auto' src={tread.image} alt="" />
                          <h1 className='text-center'>{tread.name}</h1>
                          <div className='flex items-center gap-4 justify-center'>
                          <del className='text-red-400 font-semibold'>${tread.price}</del>

@@ -4,42 +4,48 @@
           "name": "Fortnite Controller",
           "price": 19.99,
           "image": "https://pngimg.com/uploads/gamepad/gamepad_PNG57.png",
-          "new-price": 15.99
+          "new_price": 15.99,
+          "rating":4.0
         },
         {
           "id": 2,
           "name": "Projector",
           "price": 29.95,
           "image": "https://images-na.ssl-images-amazon.com/images/I/91T-Wl%2BySBL._SL1500_.jpg",
-          "new-price": 24.95
+          "new_price": 24.95,
+          "rating":4.8
         },
         {
           "id": 3,
           "name": "HeadphoneCX",
           "price": 14.99,
           "image": "https://i5.walmartimages.com/asr/41e14822-1e5d-4f7f-9bda-3bc5f264d4a8.695e8ae876b53efaebf555e6b7488ae6.jpeg",
-          "new-price": 11.99
+          "new_price": 11.99,
+          "rating":3.9
         },
         {
           "id": 4,
           "name": "apple 15pro",
           "price": 49.99,
           "image": "https://tse1.mm.bing.net/th?id=OIP.JCTsXcj9bUIoYyNktjgXZwHaHa&pid=Api&P=0&h=220",
-          "new-price": 39.99
+          "new_price": 39.99,
+          "rating":4.5
         },
         {
           "id": 5,
           "name": "Lenovo 14",
           "price": 9.99,
           "image": "https://tse2.mm.bing.net/th?id=OIP.3QZ9UdJ_TaDnPZZRyIwqdAHaHa&pid=Api&P=0&h=220",
-          "new-price": 7.99
+          "new_price": 7.99,
+          "rating":4.0
         },
         {
           "id": 6,
           "name": "Xpeed gamepad",
           "price": 39.99,
           "image": "https://tse2.mm.bing.net/th?id=OIP.7MOwyM21jU6hi1909ls4gQHaE8&pid=Api&P=0&h=220",
-          "new-price": 34.99
+          "new_price": 34.99,
+          "rating":5.0
         }
          
           

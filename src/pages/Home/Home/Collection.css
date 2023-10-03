@@ -1,0 +1,10 @@
+.cade{
+       transition: transform 0.3s ease-in;
+       transition-duration: 0.4s;
+}
+.cade:hover{
+        transform: rotate(5deg);
+         transition: 2;
+         animation: 5px;
+        
+}
