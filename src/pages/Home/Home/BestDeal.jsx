@@ -79,6 +79,10 @@ const BestDeal = () => {
                                 <del className='text-red-400 font-semibold'>${feature.price}</del>
                                 <p className='text-orange-300 font-bold'>${feature.new_price}</p>
                                 </div>
+                                <Rating className="text-yellow-400"
+                            style={{ maxWidth:100, height:'24px', color:'burlywood' }}
+                            value={feature.rating}
+                        readOnly />
                                 </div>
                                  
                         </div>)
@@ -103,8 +107,8 @@ const BestDeal = () => {
                          <p className='text-orange-300 font-bold'>${hotsel.new_price}</p>
                          </div>
                          <Rating className="text-yellow-400"
-                   style={{ maxWidth:100, height:'24px', color:'burlywood' }}
-                        value={hotsel.rating}
+                            style={{ maxWidth:100, height:'24px', color:'burlywood' }}
+                            value={hotsel.rating}
                         readOnly />
                          </div>
                           
@@ -128,6 +132,10 @@ const BestDeal = () => {
                          <del className='text-red-400 font-semibold'>${tread.price}</del>
                          <p className='text-orange-300 font-bold'>${tread.new_price}</p>
                          </div>
+                         <Rating className="text-yellow-400"
+                            style={{ maxWidth:100, height:'24px', color:'burlywood' }}
+                            value={tread.rating}
+                        readOnly />
                          </div>
                           
                  </div>)
