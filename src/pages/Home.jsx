@@ -3,6 +3,7 @@ import BestDeal from './Home/Home/BestDeal';
 import CategoryItem from "./Home/Home/CategoryItem";
 import Collection from './Home/Home/Collection';
 import Features from './Home/Home/Features';
+import Offered from './Home/Home/Offered';
 import ViewProduct from "./Home/Home/ViewProduct";
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
                        <Features></Features>
                        <Collection></Collection>
                        <BestDeal></BestDeal>
+                       <Offered></Offered>
                 </div>
         );
 };
