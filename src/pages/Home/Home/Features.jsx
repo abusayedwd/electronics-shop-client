@@ -45,7 +45,7 @@ const Features = () => {
         <div className='md:w-[70%] w-full'>
         <div className="container ">
       <div className="tab md:flex justify-between">
-        <div className='text-xl font-serif font-bold'>Features Product</div>
+        <div className='text-xl font-bold'>Features Product</div>
         <div className=''>
         <button
           className={`button ${activeTab === 0 ? 'active' : ''}`}
