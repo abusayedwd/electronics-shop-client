@@ -8,21 +8,21 @@ const Features = () => {
         const [hotsels, setHotsels] = useState([])
         const [treads, setTread] = useState([])
         useEffect( () => {
-                fetch('../../../../public/features.json')
+                fetch('/public/features.json')
                 .then(res => res.json())
                 .then(data => setFeatures(data))
                  
         // eslint-disable-next-line react-hooks/exhaustive-deps
         }, [])
         useEffect( () => {
-                fetch('../../../../public/hotproduct.json')
+                fetch('/public/hotproduct.json')
                 .then(res => res.json())
                 .then(data => setHotsels(data))
                  
         // eslint-disable-next-line react-hooks/exhaustive-deps
         }, [])
         useEffect( () => {
-                fetch('../../../../public/treadproduct.json')
+                fetch('/public/treadproduct.json')
                 .then(res => res.json())
                 .then(data => setTread(data))
                  
