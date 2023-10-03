@@ -2,8 +2,14 @@ import  { useEffect, useState } from 'react';
 import './Features.css'
 import { motion } from 'framer-motion';
 import { fadein } from '../../../hooks/fadein';
+import gagepad from '../../../../public/gamepad/game2.jpg'
+import { FaAngleLeft, FaAngleRight } from 'react-icons/fa6';
+import { Progress } from 'react-sweet-progress';
+import "react-sweet-progress/lib/style.css";
+import Timercount from '../../../shared/Timercount';
 
 const Features = () => {
+        const initialTime = 36000; 
         const [features, setFeatures] = useState([])
         const [hotsels, setHotsels] = useState([])
         const [treads, setTread] = useState([])
@@ -39,13 +45,32 @@ const Features = () => {
   
         return (
                 <div className='md:flex mt-12 '>
-                    <div className='md:w-[30%] w-full'>
-                        helelelooo
+                    <div className='md:w-[30%] w-full border border-blue-500 '>
+                        <div className='flex justify-between items-center p-4 bg-blue-500'>
+                        <h1 className='text-white font-medium'>Deals of the week</h1>
+                        <p className='text-white inline-flex'>
+                                <FaAngleLeft></FaAngleLeft>
+                                <FaAngleRight></FaAngleRight>
+                        </p>
+                        </div>
+                        <img className='h-32 relative w-36 mx-auto md:mt-10' src={gagepad} alt="" />
+                        <p className='absolute h-20 w-20 bg-yellow-400 font-semibold text-white px-1 py-4 rounded-full text-center '>18% Offer!</p>
+                        <p className='mt-12 text-blue-400 font-bold text-center'>Sony Gamepad</p>
+                        <p className='text-2xl text-center font-bold text-orange-400'>$110.0 - $120.0</p>
+                        <p className='flex items-center justify-around'>
+                                <small>Already sold:0</small>
+                                <small>Available: 10</small>
+                        </p>
+                        <p className='w-[80%] mx-auto font-bold'>
+                        <Progress percent={18}/>
+                        </p>
+                        <h1 className='font-bold text-2xl mt-4'> <span className='text-blue-500 font-bold text-2xl'>Hurry-UP!</span> Offered End In:</h1>
+                        <Timercount initialTime={initialTime}></Timercount>
                         </div> 
         <div className='md:w-[70%] w-full'>
         <div className="container ">
       <div className="tab md:flex justify-between">
-        <div className='text-xl font-bold'>Features Product</div>
+        <div className='text-xl text-black font-bold'>Features Product</div>
         <div className=''>
         <button
           className={`button ${activeTab === 0 ? 'active' : ''}`}

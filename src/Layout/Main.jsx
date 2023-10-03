@@ -34,7 +34,7 @@ const Main = () => {
           <PropagateLoader size={25} color="#07a8D1" />
         </div>
           ) : (
-                <div className='container mx-auto'>
+                <div className='w-[90%] mx-auto'>
                       <Navbar></Navbar>
                       <Outlet></Outlet> 
                       <Footer></Footer>  
