@@ -1,4 +1,4 @@
- 
+
 import { Outlet } from 'react-router-dom';
 import Navbar from '../shared/Navbar';
 import Footer from '../shared/Footer';
@@ -8,16 +8,16 @@ import { PropagateLoader } from 'react-spinners';
 import logo from '../../public/loading-gif.webp'
 
 const Main = () => {
-        const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(false);
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
     }, 2000);
   }, []);
-        return (
-                <>
-                {loading ? (
+  return (
+    <>
+      {loading ? (
         <div className="flex flex-col justify-center items-center mt-[350px]">
           <motion.div className=''
             animate={{ y: [20, 50, 20], opacity: 1, scale: 0.8 }}
@@ -33,15 +33,15 @@ const Main = () => {
           </motion.div>
           <PropagateLoader size={25} color="#07a8D1" />
         </div>
-          ) : (
-                <div className='w-[90%] mx-auto'>
-                      <Navbar></Navbar>
-                      <Outlet></Outlet> 
-                      <Footer></Footer>  
-                </div>
-          )}
-                </>
-        );
+      ) : (
+        <div className='w-[90%] mx-auto'>
+          <Navbar></Navbar>
+          <Outlet></Outlet>
+          <Footer></Footer>
+        </div>
+      )}
+    </>
+  );
 };
 
 export default Main;

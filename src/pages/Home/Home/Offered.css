@@ -1,0 +1,7 @@
+.cardbody{
+   position: relative;
+}
+.offer{
+   position: absolute;
+   top: 20px;
+}

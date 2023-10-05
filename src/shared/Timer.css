@@ -1,0 +1,19 @@
+.countdown-item {
+    
+   text-align: center;
+ }
+ 
+ .countdown-value {
+    background-color: rgb(234, 230, 226);
+    padding: 8px 12px; 
+    border-radius: 50%;
+    font-weight: bold;
+ }
+ 
+ .countdown-label {
+   font-size: 0.8rem;
+   color: #555;
+   font-weight: 700;
+    
+ }
+ 
