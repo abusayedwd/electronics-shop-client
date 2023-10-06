@@ -42,7 +42,7 @@ const Offered = () => {
     setActiveTab(index);
   };
   return (
-    <div className=" mt-16">
+    <div className=" mt-32">
       <h1 className="text-2xl font-bold text-orange-400 uppercase underline text-center">
         offered product
       </h1>

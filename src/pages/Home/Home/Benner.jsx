@@ -56,9 +56,9 @@ const Benner = () => {
 
 
         return (
-                <div className=" grid md:grid-cols-2 gap-3 text-center py-8 ">
+                <div className=" grid md:grid-cols-2 gap-3 text-center py-20 ">
                         
-                        <div className='mt-12 px-6'>
+                        <div className='mt-20 px-6'>
                         <motion.div
                                 variants={fadein("down", 0.8)}
                                 initial="hidden"
@@ -103,7 +103,7 @@ const Benner = () => {
                              >Shop now</motion.button>       
                            
                         </div>
-                        <div className='w-[60%] mx-auto'>
+                        <div className='w-[60%] mt-16 mx-auto'>
                                 <motion.div
                                 variants={fadein("left", 0.8)}
                                 initial="hidden"

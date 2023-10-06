@@ -7,15 +7,17 @@ import Features from './Home/Home/Features';
 import Gadget from './Home/Home/Gadget';
 import Offered from './Home/Home/Offered';
 import ViewProduct from "./Home/Home/ViewProduct";
+import Marqueecard from './Home/Home/marqueecard';
 
 const Home = () => {
         return (
                 <div>
-                        <Benner></Benner> 
+                        <Benner></Benner>
+                        <Marqueecard></Marqueecard> 
                        <CategoryItem></CategoryItem>
-                       <ViewProduct></ViewProduct>
                        <Features></Features>
                        <Collection></Collection>
+                       <ViewProduct></ViewProduct>
                        <BestDeal></BestDeal>
                        <Offered></Offered>
                        <DreamProduct></DreamProduct>

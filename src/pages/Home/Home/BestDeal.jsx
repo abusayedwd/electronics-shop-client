@@ -33,7 +33,7 @@ const BestDeal = () => {
     setActiveTab(index);
   };
   return (
-    <div className="mt-12">
+    <div className="mt-32">
       <div className="container ">
         <div className="tab md:flex justify-between">
           <div className="text-xl text-black font-bold">Beat Deals</div>
