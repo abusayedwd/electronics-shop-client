@@ -180,7 +180,7 @@ function CategoryItem() {
                 
                  </div>}
         {activeTab === 1 &&  
-            <div  className='grid md:grid-cols-6 gap-2 mt-6'> 
+            <div  className='grid md:grid-cols-6 grid-cols-2 gap-2 mt-6'> 
                 
             <div>
                             <img className='h-24 w-24' src={speaker1} alt="" />
@@ -234,7 +234,7 @@ function CategoryItem() {
         
         
         {activeTab === 2 &&  
-        <div  className='grid md:grid-cols-6 gap-2 mt-6'> 
+        <div  className='grid md:grid-cols-6 grid-cols-2 gap-2 mt-6'> 
                 
         <div>
                         <img className='h-24 w-24' src={headp1} alt="" />
@@ -287,7 +287,7 @@ function CategoryItem() {
          </div>}
         
         {activeTab === 3 &&  
-        <div  className='grid md:grid-cols-6 gap-2 mt-6'> 
+        <div  className='grid md:grid-cols-6 grid-cols-2 gap-2 mt-6'> 
                 
         <div>
                         <img className='h-24 w-24' src={gagep1} alt="" />
@@ -340,7 +340,7 @@ function CategoryItem() {
          </div>}
          
         {activeTab === 4 && 
-       <div  className='grid md:grid-cols-6 gap-2 mt-6'> 
+       <div  className='grid md:grid-cols-6 grid-cols-2 gap-2 mt-6'> 
                 
        <div>
                        <img className='h-24 w-24' src={drone1} alt="" />
@@ -391,7 +391,8 @@ function CategoryItem() {
                 </div>
        
         </div>}
-        {activeTab === 5 && <div className='grid md:grid-cols-6 gap-2 mt-6'>
+        {activeTab === 5 && 
+        <div className='grid md:grid-cols-6 grid-cols-2 gap-2 mt-6'>
                 
                          <div>
                                 <img className='h-24 w-24' src={camera1} alt="" />
