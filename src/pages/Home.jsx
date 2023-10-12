@@ -1,5 +1,6 @@
  import Benner from './Home/Home/Benner'
 import BestDeal from './Home/Home/BestDeal';
+import Cardmarquee from './Home/Home/Cardmarquee';
 import CategoryItem from "./Home/Home/CategoryItem";
 import Collection from './Home/Home/Collection';
 import DreamProduct from './Home/Home/DreamProduct';
@@ -10,12 +11,13 @@ import Reviews from './Home/Home/Reviews';
 import ViewProduct from "./Home/Home/ViewProduct";
  
  
+ 
 
 const Home = () => {
         return (
                 <div>
                         <Benner></Benner>
-                        
+                        <Cardmarquee></Cardmarquee>
                        <CategoryItem></CategoryItem>
                        <Features></Features>
                        <Collection></Collection>

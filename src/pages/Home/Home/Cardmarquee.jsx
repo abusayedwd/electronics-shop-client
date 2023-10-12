@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Marquee from "react-fast-marquee";
  
 
-const Marqueecard = () => {
+const Cardmarquee = () => {
 
    const [features, setFeatures] = useState([]);
    
@@ -37,4 +37,4 @@ const Marqueecard = () => {
    );
 };
 
-export default Marqueecard;
+export default Cardmarquee;
