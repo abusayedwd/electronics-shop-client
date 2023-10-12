@@ -8,13 +8,14 @@ import Gadget from './Home/Home/Gadget';
 import Offered from './Home/Home/Offered';
 import Reviews from './Home/Home/Reviews';
 import ViewProduct from "./Home/Home/ViewProduct";
-import Marqueecard from './Home/Home/marqueecard';
+ 
+ 
 
 const Home = () => {
         return (
                 <div>
                         <Benner></Benner>
-                        <Marqueecard></Marqueecard> 
+                        
                        <CategoryItem></CategoryItem>
                        <Features></Features>
                        <Collection></Collection>
