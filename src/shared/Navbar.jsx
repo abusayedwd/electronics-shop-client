@@ -1,29 +1,16 @@
  
-import { FaAngleDown } from 'react-icons/fa';
+ 
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
   const navitem = <>
-  <div className='flex items-center'>
-  <li className='font-bold'><Link to='/'>Home</Link></li>
   
-  <li className='font-bold dropdown dropdown-hover'> 
-   
-  <label className='bg-none'>Category <FaAngleDown></FaAngleDown></label>
-   
-  <ul className='dropdown-content shadow-xl md:bg-slate-100 pr-2 md:pr-7 bg-slate-400'>
-     <li><Link to = '/feature'>Features</Link></li>
-     <li><Link to='/best'>Best Deals</Link></li>
-     <li><Link to = '/offered'>Offered</Link></li>
-     <li><Link to = '/collection'>Collections</Link></li>
-  </ul> 
- 
-  </li>
-  </div>
-   
-   
-   
+  <li className='font-bold'><Link to='/'>Home</Link></li> 
+     <li className='font-bold'><Link to = '/feature'>Features</Link></li>
+     <li className='font-bold'><Link to='/best'>Best Deals</Link></li>
+     <li className='font-bold'><Link to = '/offered'>Offered</Link></li>
+     <li className='font-bold'><Link to = '/collection'>Collections</Link></li> 
    </>
         return (
                 <div>
@@ -37,6 +24,7 @@ const Navbar = () => {
          {navitem}
       </ul>
     </div>
+    <img className="h-10 rounded-full" src="https://i.pinimg.com/736x/b5/ac/f3/b5acf3f7ce620af31da71fdb221020e9.jpg" alt="" />
     <Link to='/' className="btn btn-ghost normal-case text-xl text-rose-800 font-bold">ElectronicsHUB</Link>
   </div>
   <div className="navbar-center hidden lg:flex">
@@ -64,7 +52,7 @@ const Navbar = () => {
         <li><a>Logout</a></li>
       </ul>
     </div>
-    <a className="btn bg-green-400">Login</a>
+    <Link to = '/login' className="btn bg-green-400">Login</Link>
   </div>
 </div>  
                 </div>

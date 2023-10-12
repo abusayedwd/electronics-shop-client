@@ -8,6 +8,7 @@ import Features from "../pages/Home/Home/Features";
 import BestDeal from "../pages/Home/Home/BestDeal";
 import Offered from "../pages/Home/Home/Offered";
 import Collection from "../pages/Home/Home/Collection";
+import Loginform from "../shared/Logingform";
 
 
      export const router = createBrowserRouter([
@@ -34,6 +35,10 @@ import Collection from "../pages/Home/Home/Collection";
                 {
                   path:'collection',
                   element:<Collection></Collection>
+                },
+                {
+                  path:'login',
+                  element:<Loginform></Loginform>
                 }
           ]
         },

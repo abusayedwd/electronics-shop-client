@@ -1,0 +1,37 @@
+[
+   {
+      "id": 1,
+      "name": "Ali Hossin",
+      "review": "Absolutely dreadful people . I bought a turntable from them on line . It arrived but was faulty , Refusing to return my calls rude arrogant and uncaring. Guy called Ross constantly telling me he would call back but never did Eventually they told me to send the turntable back at my own cost which I reluctantly did",
+      "image": "https://pngimg.com/uploads/gamepad/gamepad_PNG57.png",
+      "rating":5.0
+    },
+   {
+      "id": 1,
+      "name": "Abdullah",
+      "review": "I bought few things to set up a turntable for my daughter. I needed a needle/cartridge, pre-amplifier and some powered speakers. Not only did they match or beat online prices the help and advice was excellent.",
+      "image": "https://pngimg.com/uploads/gamepad/gamepad_PNG57.png",
+      "rating":4.0
+    },
+   {
+      "id": 1,
+      "name": "Ali Hossin",
+      "review": "Superb service and great products. I’ve been dealing with the Electronic Centre for many years now. After several discussions they specked and supplied me with Turntable, Amplifier and Speakers for my home.",
+      "image": "https://pngimg.com/uploads/gamepad/gamepad_PNG57.png",
+      "rating":3.0
+    },
+   {
+      "id": 1,
+      "name": "Hilary",
+      "review": "We used the electronic centre for a new fit out of our new city centre sports bar “Gallahers” A fantastic team to work with from start to finish with there endeavour to do everything perfect and with great attention to detail.",
+      "image": "https://pngimg.com/uploads/gamepad/gamepad_PNG57.png",
+      "rating":4.5
+    },
+   {
+      "id": 1,
+      "name": "Jhon milton",
+      "review": "Good service, ok so ordered the Roland T8 a few months back, received today, although this was on pre order, I understood that Roland had problems filling orders, the staff are quite helpful by phone and their web chat service",
+      "image": "https://pngimg.com/uploads/gamepad/gamepad_PNG57.png",
+      "rating":4.8
+    }
+]

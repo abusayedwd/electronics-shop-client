@@ -5,7 +5,7 @@ import "./Collection.css";
 
 const Collection = () => {
   return (
-    <div className="mt-12">  <h1 className="text-2xl text-center font-bold border-b-2 uppercase">new collections</h1>
+    <div className="mt-20">  <h1 className="text-2xl text-center font-bold border-b-2 uppercase">new collections</h1>
       <div className=" mt-10 grid md:grid-cols-3 gap-4 ">
       <div className="cardbody shadow p-5 md:flex items-center justify-between">
         <div>

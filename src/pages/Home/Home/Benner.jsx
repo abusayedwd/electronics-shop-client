@@ -72,14 +72,18 @@ const Benner = () => {
 
                                <TypeAnimation
                                         sequence={[
-                                        // Same substring at the start will only be typed once, initially
-                                        'Mens Fashion',
+                                         
+                                        'Feature Product',
                                         1000,
-                                        'Women Fashion',
+                                        'Best Sell',
                                         1000,
-                                        'Camera',
+                                        'Speaker',
                                         1000,
-                                        'Dron',
+                                        'Latest Product',
+                                        1000,
+                                        'Offered Product',
+                                        1000,
+                                        'Computer Accessories',
                                         1000,
                                         ]}
                                         speed={{type: 'keyStrokeDelayInMs', value: 250}}

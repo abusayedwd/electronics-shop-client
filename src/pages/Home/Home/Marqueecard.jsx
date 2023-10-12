@@ -18,7 +18,7 @@ const Marqueecard = () => {
    return (
       <div className="bg-slate-100 py-10">
          <h1 className="text-2xl font-bold text-center my-2 uppercase">latest product</h1>
-         <div className="flex items-center shadow-xl rounded-md p-4 bg-white w-4/5 mx-auto">
+         <div className="flex items-center shadow-xl rounded-md bg-white w-4/5 mx-auto">
            <Marquee speed={60}
            pauseOnHover={true}
            > 

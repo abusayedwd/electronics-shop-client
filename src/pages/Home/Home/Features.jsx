@@ -43,7 +43,7 @@ const Features = () => {
   };
 
   return (
-    <div className="md:flex mt-48 ">
+    <div className="md:flex mt-20 ">
       <div className="md:w-[30%] w-full border border-blue-500 ">
         <div className="flex justify-between items-center p-4 bg-blue-500">
           <h1 className="text-white font-medium">Deals of the week</h1>

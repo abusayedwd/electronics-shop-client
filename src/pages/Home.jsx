@@ -6,6 +6,7 @@ import DreamProduct from './Home/Home/DreamProduct';
 import Features from './Home/Home/Features';
 import Gadget from './Home/Home/Gadget';
 import Offered from './Home/Home/Offered';
+import Reviews from './Home/Home/Reviews';
 import ViewProduct from "./Home/Home/ViewProduct";
 import Marqueecard from './Home/Home/marqueecard';
 
@@ -22,6 +23,7 @@ const Home = () => {
                        <Offered></Offered>
                        <DreamProduct></DreamProduct>
                        <Gadget></Gadget>
+                       <Reviews></Reviews>
                 </div>
         );
 };
