@@ -1,9 +1,5 @@
 import { useEffect, useState } from "react";
 import Marquee from "react-fast-marquee";
-import "swiper/css";
-import "swiper/css/pagination";
- 
-
  
 
 const Marqueecard = () => {
