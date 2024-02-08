@@ -6,7 +6,8 @@
           "price": 29.95,
           "image": "https://www.ien.eu/uploads/tx_etim/Datalogic_44676.jpg",
           "new_price": 24.95,
-          "rating":4
+          "rating":4,
+          "details": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
            
         },
         {
@@ -15,7 +16,8 @@
           "price": 14.99,
           "image": "https://tse3.mm.bing.net/th?id=OIP.oXUF2v1T31O_PFSOtRGy6wHaHa&pid=Api&P=0&h=220",
           "new_price": 11.99,
-          "rating":4.7
+          "rating":4.7,
+          "details": "tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
         },
         {
           "id": 4,
@@ -23,7 +25,8 @@
           "price": 49.99,
           "image": "https://tse2.mm.bing.net/th?id=OIP.MYcEnNzxgC8UkyJxDnmQOAHaMH&pid=Api&P=0&h=220",
           "new_price": 39.99,
-          "rating":3.9
+          "rating":3.9,
+          "details": "habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, Mauris placerat eleifend leo."
         },
         {
           "id": 5,
@@ -31,7 +34,8 @@
           "price": 9.99,
           "image": "https://i5.walmartimages.com/asr/a5531834-0c0f-43b7-8be6-6bf2315424f4_1.8e5fa0bdcaa7094e4c4dbf7d327041b3.jpeg",
           "new_price": 7.99,
-          "rating":4.4
+          "rating":4.4,
+          "details": "Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper."
         },
         {
           "id": 6,
@@ -39,7 +43,8 @@
           "price": 39.99,
           "image": "https://tse2.mm.bing.net/th?id=OIP.hiwVpc2QtPCAyrwD82cSugHaE7&pid=Api&P=0&h=220",
           "new_price": 34.99,
-          "rating":4.7
+          "rating":4.7,
+          "details": "Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."
         },
         {
           "id": 7,
@@ -47,7 +52,8 @@
           "price": 24.95,
           "image": "https://tse2.mm.bing.net/th?id=OIP.UMg6uiHdpndudR6Q5LDMYwHaEL&pid=Api&P=0&h=220",
           "new_price": 19.95,
-          "rating":5
+          "rating":5,
+          "details": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
         },
         {
           "id": 8,
@@ -55,7 +61,8 @@
           "price": 59.99,
           "image": "https://tse1.mm.bing.net/th?id=OIP.mk93Zdfnvi1EUQlVdWT90QHaHa&pid=Api&P=0&h=220",
           "new_price": 49.99,
-          "rating":4
+          "rating":4,
+          "details": "Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper."
         },
         {
           "id": 9,
@@ -63,7 +70,8 @@
           "price": 12.99,
           "image": "https://www.styleskier.com/wp-content/uploads/2017/08/the-eltham-gold-mechanical-open-face-pocket-watch-iesherx-.jpg",
           "new_price": 9.99,
-          "rating":3.8
+          "rating":3.8,
+          "details": "Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
         },
         {
           "id": 10,
@@ -71,7 +79,8 @@
           "price": 34.99,
           "image": "https://tse3.mm.bing.net/th?id=OIP.obM4aXk7W17sZ6yhC230ygHaHa&pid=Api&P=0&h=220",
           "new_price": 29.99,
-          "rating":4.6
+          "rating":4.6,
+          "details": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
         }
       ]
       
