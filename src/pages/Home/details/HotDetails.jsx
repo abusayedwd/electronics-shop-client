@@ -12,16 +12,18 @@ import {
   FaUserNurse,
 } from "react-icons/fa";
 
-const LetestDetails = () => {
-  const { id } = useParams();
-  // console.log(id)
-  const details = useLoaderData();
-  const [latestProduct, setLalestProduct] = useState([]);
+
+const HotDetails = () => {
+
+   const { id } = useParams();
+   
+  const hotDetails = useLoaderData();
+  const [hotDtail, sethotDetail ] = useState([]);
 
   useEffect(() => {
-    if (details) {
-      const detailss = details.find((dt) => dt.id == id);
-      setLalestProduct(detailss);
+    if (hotDetails) {
+      const detailH = hotDetails.find((dt) => dt.id == id);
+       sethotDetail(detailH);
     }
   }, []);
 
@@ -42,23 +44,24 @@ const LetestDetails = () => {
     }
   };
 
-  return (
-    <div className="mt-24">
+
+   return (
+      <div className="mt-24">
       <h1 className="text-3xl font-bold text-sky-600 text-center">
-        About the {latestProduct.name}
+        About the {hotDtail.name}
       </h1>
 
       <div className="md:flex py-8">
         <div className="md:w-1/2">
           <img
             className="rounded-3xl h-80 w-full"
-            src={latestProduct.image}
+            src={hotDtail.image}
             alt=""
           />
         </div>
         <div className="md:w-1/2 ml-8">
-          <p className="text-2xl font-semibold">{latestProduct.name}</p>
-          <p className="py-3">{latestProduct.details}</p>
+          <p className="text-2xl font-semibold">{hotDtail.name}</p>
+          <p className="py-3">{hotDtail.details}</p>
           <Rating
             className="text-yellow-400"
             style={{
@@ -67,17 +70,17 @@ const LetestDetails = () => {
               height: "50px",
               color: "burlywood",
             }}
-            value={latestProduct.rating}
+            value={hotDtail.rating}
             readOnly
           />
           <p className="text-orange-400 font-semibold">
             {" "}
-            ${latestProduct.new_price}
+            ${hotDtail.new_price}
           </p>
-          {count} x {latestProduct.new_price}
+          {count} x {hotDtail.new_price}
           <p className="text-orange-500 font-bold">
             {" "}
-            Total : {parseFloat(count * latestProduct.new_price).toFixed(2)}
+            Total : {parseFloat(count * hotDtail.new_price).toFixed(2)}
           </p>
           <div className="md:flex gap-6 items-center mt-4">
             <div className="flex gap-8 border-sky-400 border w-[196px]">
@@ -226,7 +229,7 @@ const LetestDetails = () => {
         </div>
         <div className="py-10">
           <h1 className="text-2xl md:ml-20">
-            Reviews for {latestProduct.name}
+            Reviews for {hotDtail.name}
           </h1>
           <div className="md:flex md:px-16 mt-6">
             <div className="md:w-1/6">
@@ -297,7 +300,7 @@ const LetestDetails = () => {
         <div className="md:px-16 mb-8">
           <div className="bg-slate-100 md:py-10 px-10 md:px-40">
             <h1 className="font-semibold py-3">
-              Be the first to "{latestProduct.name}"
+              Be the first to "{hotDtail.name}"
             </h1>
             <small>
               Your email address will not be published. Required fields are
@@ -369,7 +372,7 @@ const LetestDetails = () => {
         </div>
       </div>
     </div>
-  );
+   );
 };
 
-export default LetestDetails;
+export default HotDetails;

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import speaker from "../../../../public/speaker/speaker6.jpg";
+import { Link } from "react-router-dom";
 
 const DreamProduct = () => {
   const [features, setFeatures] = useState([]);
@@ -74,8 +75,10 @@ const DreamProduct = () => {
                           alt=""
                         />
                       </div>
-                      <button className="bg-blue-600 offer py-2 px-2 text-sm text-white rounded hover:bg-amber-400">
-                         Buy Now
+                      <button className="w-24 h-8 offer before:block before:absolute hover:before:bg-sky-700 before:w-0 before:h-0 hover:before:h-20 hover:before:w-40 before:-bottom-2 before:-right-2 before:duration-500 before:rounded-xl before:-z-10 relative inline-block transform hover:text-white text-sky-700 bg-slate-200 border-2 overflow-hidden border-sky-700 duration-500">
+                        <Link to={`/featureDetails/${feature.id}`}>
+                          View Details
+                        </Link>
                       </button>
                       <div>
                         <h1 className="text-center">{feature.name}</h1>
@@ -106,8 +109,10 @@ const DreamProduct = () => {
                           alt=""
                         />
                       </div>
-                      <button className="bg-blue-600 offer py-2 px-2 text-sm text-white rounded hover:bg-amber-400">
-                         Buy Now
+                      <button className="w-24 h-8 offer before:block before:absolute hover:before:bg-sky-700 before:w-0 before:h-0 hover:before:h-20 hover:before:w-40 before:-bottom-2 before:-right-2 before:duration-500 before:rounded-xl before:-z-10 relative inline-block transform hover:text-white text-sky-700 bg-slate-200 border-2 overflow-hidden border-sky-700 duration-500">
+                        <Link to={`/hotDetails/${hotsel.id}`}>
+                          View Details
+                        </Link>
                       </button>
                       <div>
                         <h1>{hotsel.name}</h1>
@@ -138,8 +143,10 @@ const DreamProduct = () => {
                           alt=""
                         />
                       </div>
-                      <button className="bg-blue-600 offer py-2 px-2 text-sm text-white rounded hover:bg-amber-400">
-                        Buy Now
+                      <button className="w-24 h-8 offer before:block before:absolute hover:before:bg-sky-700 before:w-0 before:h-0 hover:before:h-20 hover:before:w-40 before:-bottom-2 before:-right-2 before:duration-500 before:rounded-xl before:-z-10 relative inline-block transform hover:text-white text-sky-700 bg-slate-200 border-2 overflow-hidden border-sky-700 duration-500">
+                        <Link to={`/treadDetails/${tread.id}`}>
+                          View Details
+                        </Link>
                       </button>
                       <div>
                         <h1 className="text-center">{tread.name}</h1>

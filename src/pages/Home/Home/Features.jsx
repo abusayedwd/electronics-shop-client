@@ -8,6 +8,7 @@ import { Progress } from "react-sweet-progress";
 import "react-sweet-progress/lib/style.css";
 import Timercount from "../../../shared/Timercount";
 import "./Collection.css";
+import { Link } from "react-router-dom";
 
 const Features = () => {
   const initialTime = 360;
@@ -113,7 +114,7 @@ const Features = () => {
               <div className="grid md:grid-cols-3 gap-4 mt-6">
                 {features.slice(0, 6).map((feature) => (
                   <motion.div
-                    className="hover:shadow-2xl p-3"
+                    className="hover:shadow-2xl p-3 cardbody"
                     key={feature.id}
                     variants={fadein("right", 0.5)}
                     initial="hidden"
@@ -134,6 +135,11 @@ const Features = () => {
                       <p className="text-orange-300 font-bold">
                         ${feature.new_price}
                       </p>
+                      <button className=" offer w-28 h-12 before:block before:absolute hover:before:bg-sky-700 before:w-0 before:h-0 hover:before:h-20 hover:before:w-40 before:-bottom-2 before:-right-2 before:duration-500 before:rounded-xl before:-z-10 relative inline-block transform hover:text-white text-sky-700 bg-slate-200 border-2 overflow-hidden border-sky-700 duration-500"> 
+                      <Link to ={`/featureDetails/${feature.id}`}>
+                      View Details
+                      </Link>
+                      </button>
                     </div>
                   </motion.div>
                 ))}
@@ -143,7 +149,7 @@ const Features = () => {
               <div className="grid md:grid-cols-3 gap-4 mt-6">
                 {hotsels.map((hotsel) => (
                   <motion.div
-                    className="hover:shadow-2xl p-5 "
+                    className="hover:shadow-2xl p-5 cardbody"
                     key={hotsel.id}
                     variants={fadein("down", 0.5)}
                     initial="hidden"
@@ -164,6 +170,11 @@ const Features = () => {
                       <p className="text-orange-300 font-bold">
                         ${hotsel.new_price}
                       </p>
+                      <button className=" offer w-28 h-12 before:block before:absolute hover:before:bg-sky-700 before:w-0 before:h-0 hover:before:h-20 hover:before:w-40 before:-bottom-2 before:-right-2 before:duration-500 before:rounded-xl before:-z-10 relative inline-block transform hover:text-white text-sky-700 bg-slate-200 border-2 overflow-hidden border-sky-700 duration-500"> 
+                      <Link to ={`/hotDetails/${hotsel.id}`}>
+                      View Details
+                      </Link>
+                      </button>
                     </div>
                   </motion.div>
                 ))}
@@ -174,7 +185,7 @@ const Features = () => {
                 {treads.slice(0, 6).map((tread) => (
                   
                         <motion.div
-                    className="hover:shadow-2xl p-5"
+                    className="hover:shadow-2xl p-5 cardbody"
                     key={tread.id}
                     variants={fadein("left", 0.5)}
                     initial="hidden"
@@ -195,6 +206,12 @@ const Features = () => {
                       <p className="text-orange-300 font-bold">
                         ${tread.new_price}
                       </p>
+                      <button className=" offer w-28 h-12 before:block before:absolute hover:before:bg-sky-700 before:w-0 before:h-0 hover:before:h-20 hover:before:w-40 before:-bottom-2 before:-right-2 before:duration-500 before:rounded-xl before:-z-10 relative inline-block transform hover:text-white text-sky-700 bg-slate-200 border-2 overflow-hidden border-sky-700 duration-500"> 
+                      <Link to ={`/treadDetails/${tread.id}`}>
+                      View Details
+                      </Link>
+                      </button>
+
                     </div>
                   </motion.div>
                   

@@ -8,12 +8,13 @@ import Timer from "../../../shared/Timer";
 import { Progress } from "react-sweet-progress";
 import "react-sweet-progress/lib/style.css";
 import { Rating } from "@smastrom/react-rating";
+import { Link } from "react-router-dom";
 
 const Offered = () => {
   const [features, setFeatures] = useState([]);
   const [hotsels, setHotsels] = useState([]);
   const [treads, setTread] = useState([]);
-  const targetDate = "2023-12-31T00:00:00";
+  const targetDate = "2024-03-30T00:00:00";
 
   useEffect(() => {
     fetch("/features.json")
@@ -137,21 +138,26 @@ const Offered = () => {
                           </p>
                         </div>
                       </div>
-                     <div className="offer">
-                     <p className="h-16 w-16 bg-yellow-400 font-semibold text-white px-1 py-4 rounded-full text-center ">
-                        17% Offer!
-                      </p>
-                      <Rating
-                      className="text-yellow-400"
-                      style={{
-                        maxWidth: 100,
-                        height: "24px",
-                        color: "burlywood",
-                      }}
-                      value={feature.rating}
-                      readOnly
-                    />
-                     </div> 
+                      <div className="offer">
+                        <p className="h-16 w-16 bg-yellow-400 font-semibold text-white px-1 py-4 rounded-full text-center ">
+                          17% Offer!
+                        </p>
+                        <Rating
+                          className="text-yellow-400"
+                          style={{
+                            maxWidth: 100,
+                            height: "24px",
+                            color: "burlywood",
+                          }}
+                          value={feature.rating}
+                          readOnly
+                        />
+                        <button className="w-24 h-8 before:block before:absolute hover:before:bg-sky-700 before:w-0 before:h-0 hover:before:h-20 hover:before:w-40 before:-bottom-2 before:-right-2 before:duration-500 before:rounded-xl before:-z-10 relative inline-block transform hover:text-white text-sky-700 bg-slate-200 border-2 overflow-hidden border-sky-700 duration-500">
+                          <Link to={`/featureDetails/${feature.id}`}>
+                            View Details
+                          </Link>
+                        </button>
+                      </div>
                       <p className="w-[80%] mx-auto font-bold">
                         <Progress percent={17} />
                       </p>
@@ -194,20 +200,25 @@ const Offered = () => {
                         </div>
                       </div>
                       <div className="offer">
-                     <p className="h-16 w-16 bg-yellow-400 font-semibold text-white px-1 py-4 rounded-full text-center ">
-                        25% Offer!
-                      </p>
-                      <Rating
-                      className="text-yellow-400"
-                      style={{
-                        maxWidth: 100,
-                        height: "24px",
-                        color: "burlywood",
-                      }}
-                      value={hotsel.rating}
-                      readOnly
-                    />
-                     </div>
+                        <p className="h-16 w-16 bg-yellow-400 font-semibold text-white px-1 py-4 rounded-full text-center ">
+                          25% Offer!
+                        </p>
+                        <Rating
+                          className="text-yellow-400"
+                          style={{
+                            maxWidth: 100,
+                            height: "24px",
+                            color: "burlywood",
+                          }}
+                          value={hotsel.rating}
+                          readOnly
+                        />
+                        <button className="w-24 h-8 before:block before:absolute hover:before:bg-sky-700 before:w-0 before:h-0 hover:before:h-20 hover:before:w-40 before:-bottom-2 before:-right-2 before:duration-500 before:rounded-xl before:-z-10 relative inline-block transform hover:text-white text-sky-700 bg-slate-200 border-2 overflow-hidden border-sky-700 duration-500">
+                          <Link to={`/hotDetails/${hotsel.id}`}>
+                            View Details
+                          </Link>
+                        </button>
+                      </div>
                       <p className="w-[80%] mx-auto font-bold">
                         <Progress percent={17} />
                       </p>
@@ -247,20 +258,25 @@ const Offered = () => {
                         </div>
                       </div>
                       <div className="offer">
-                     <p className="h-16 w-16 bg-yellow-400 font-semibold text-white px-1 py-4 rounded-full text-center ">
-                        32% Offer!
-                      </p>
-                      <Rating
-                      className="text-yellow-400"
-                      style={{
-                        maxWidth: 100,
-                        height: "24px",
-                        color: "burlywood",
-                      }}
-                      value={tread.rating}
-                      readOnly
-                    />
-                     </div>
+                        <p className="h-16 w-16 bg-yellow-400 font-semibold text-white px-1 py-4 rounded-full text-center ">
+                          32% Offer!
+                        </p>
+                        <Rating
+                          className="text-yellow-400"
+                          style={{
+                            maxWidth: 100,
+                            height: "24px",
+                            color: "burlywood",
+                          }}
+                          value={tread.rating}
+                          readOnly
+                        />
+                        <button className="w-24 h-8 before:block before:absolute hover:before:bg-sky-700 before:w-0 before:h-0 hover:before:h-20 hover:before:w-40 before:-bottom-2 before:-right-2 before:duration-500 before:rounded-xl before:-z-10 relative inline-block transform hover:text-white text-sky-700 bg-slate-200 border-2 overflow-hidden border-sky-700 duration-500">
+                          <Link to={`/treadDetails/${tread.id}`}>
+                            View Details
+                          </Link>
+                        </button>
+                      </div>
                       <p className="w-[80%] mx-auto font-bold">
                         <Progress percent={17} />
                       </p>

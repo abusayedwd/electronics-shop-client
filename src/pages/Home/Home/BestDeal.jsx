@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "@smastrom/react-rating/style.css";
 import { Rating } from "@smastrom/react-rating";
+import { Link } from "react-router-dom";
 
 const BestDeal = () => {
   const [features, setFeatures] = useState([]);
@@ -94,8 +95,10 @@ const BestDeal = () => {
                       readOnly
                     />
                   </div>
-                  <button className="bg-blue-600 offer py-2 px-2 text-xs font-semibold text-white rounded hover:bg-amber-400">
-                    View Product
+                  <button className=" offer w-28 h-12 before:block before:absolute hover:before:bg-sky-700 before:w-0 before:h-0 hover:before:h-20 hover:before:w-40 before:-bottom-2 before:-right-2 before:duration-500 before:rounded-xl before:-z-10 relative inline-block transform hover:text-white text-sky-700 bg-slate-200 border-2 overflow-hidden border-sky-700 duration-500">
+                    <Link to={`/featureDetails/${feature.id}`}>
+                      View Details
+                    </Link>
                   </button>
                 </div>
               ))}
@@ -132,8 +135,8 @@ const BestDeal = () => {
                       readOnly
                     />
                   </div>
-                  <button className="bg-blue-600 offer py-2 px-2 text-xs font-semibold text-white rounded hover:bg-amber-400">
-                    View Product
+                  <button className=" offer w-28 h-12 before:block before:absolute hover:before:bg-sky-700 before:w-0 before:h-0 hover:before:h-20 hover:before:w-40 before:-bottom-2 before:-right-2 before:duration-500 before:rounded-xl before:-z-10 relative inline-block transform hover:text-white text-sky-700 bg-slate-200 border-2 overflow-hidden border-sky-700 duration-500">
+                    <Link to={`/hotDetails/${hotsel.id}`}>View Details</Link>
                   </button>
                 </div>
               ))}
@@ -170,8 +173,8 @@ const BestDeal = () => {
                       readOnly
                     />
                   </div>
-                  <button className="bg-blue-600 offer py-2 px-2 text-xs font-semibold text-white rounded hover:bg-amber-400">
-                    View Product
+                  <button className=" offer w-28 h-12 before:block before:absolute hover:before:bg-sky-700 before:w-0 before:h-0 hover:before:h-20 hover:before:w-40 before:-bottom-2 before:-right-2 before:duration-500 before:rounded-xl before:-z-10 relative inline-block transform hover:text-white text-sky-700 bg-slate-200 border-2 overflow-hidden border-sky-700 duration-500">
+                    <Link to={`/treadDetails/${tread.id}`}>View Details</Link>
                   </button>
                 </div>
               ))}

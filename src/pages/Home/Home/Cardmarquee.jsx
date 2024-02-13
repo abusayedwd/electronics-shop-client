@@ -26,7 +26,7 @@ const Cardmarquee = () => {
                   <h1 className="font-semibold text-center">{feature.name}</h1>
                   <p className="text-sm text-orange-300 text-center">${feature.new_price}</p> 
                   <button className="bg-blue-600 offer mt-2 py-1 px-2 text-xs font-semibold text-white rounded hover:bg-amber-400">
-                   <Link to= {`/details/${feature.id}`}> View Product</Link>
+                   <Link to= {`/featureDetails/${feature.id}`}> View Product</Link>
                   </button>
                </div> 
               )

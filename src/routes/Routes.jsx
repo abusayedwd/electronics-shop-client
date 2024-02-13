@@ -11,6 +11,8 @@ import Collection from "../pages/Home/Home/Collection";
 import Loginform from "../shared/Logingform";
 import LetestDetails from "../pages/Home/details/LetestDetails";
 import ErrorPage from "./Error";
+import TreadDetails from "../pages/Home/details/TreadDetails";
+import HotDetails from "../pages/Home/details/HotDetails";
 
 
      export const router = createBrowserRouter([
@@ -45,10 +47,21 @@ import ErrorPage from "./Error";
                   element:<Loginform></Loginform>
                 },
                 {
-                  path:'details/:id',
+                  path:'featureDetails/:id',
                   element:<LetestDetails></LetestDetails>,
                   // eslint-disable-next-line no-unused-vars
                   loader: ({params}) => fetch('/features.json')
+                },
+                {
+                  path:'treadDetails/:id',
+                  element:<TreadDetails></TreadDetails>,
+                  loader: ({params}) => fetch('/treadproduct.json')
+                },
+                {
+                  path:'hotDetails/:id',
+                  element:<HotDetails></HotDetails>,
+                  // eslint-disable-next-line no-unused-vars
+                  loader: ({params}) => fetch('/hotproduct.json')
                 }
           ]
         },
