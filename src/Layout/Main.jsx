@@ -18,7 +18,7 @@ const Main = () => {
   return (
     <>
       {loading ? (
-        <div className="flex flex-col justify-center items-center mt-[350px]">
+        <div className="flex flex-col justify-center items-center mt-[150px]">
           <motion.div className=''
             animate={{ y: [20, 50, 20], opacity: 1, scale: 0.8 }}
             transition={{
@@ -28,13 +28,13 @@ const Main = () => {
             }}
             initial={{ opacity: 0, scale: 0.5 }}
             whileHover={{ scale: 0.2 }}
-          >
-            <img className='h-48 w-48 rounded-full' src={logo} alt="" />
+          > 
           </motion.div>
-          <PropagateLoader size={25} color="#07a8D1" />
+            <img className='h-32 w-32 rounded-full' src={logo} alt="" />
+          {/* <PropagateLoader size={25} color="#07a8D1" /> */}
         </div>
       ) : (
-        <div className='w-[90%] mx-auto'>
+        <div className=''>
           <Navbar></Navbar>
           <Outlet></Outlet>
           <Footer></Footer>
