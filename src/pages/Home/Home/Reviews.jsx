@@ -24,9 +24,9 @@ const Reviews = () => {
         
          {
             reviews.map(review => <SwiperSlide key={review.id}>
-                <div className="p-12  flex flex-col items-center">
+                <div className="md:p-12 flex flex-col items-center">
                   <h1 className="text-xl text-orange-400  font-bold">{review.name}</h1>
-                  <p className=" px-12">{review.review}</p>
+                  <p className=" md:px-12 px-6">{review.review}</p>
                   <Rating
                       className="rating text-center"
                       style={{
