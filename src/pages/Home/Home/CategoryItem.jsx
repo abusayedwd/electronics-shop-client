@@ -52,7 +52,7 @@ function CategoryItem() {
   };
 
   return (
-   <div className='md:flex mt-60 md:mt-10 md:h-88'>
+   <div className='md:flex mt-10 md:h-88'>
         <div className='md:w-[20%] w-full mr-3 border'>
                 <div className='flex justify-evenly items-center py-2'>
                         <p className='text-2xl text-sky-500'> <FaCar></FaCar> </p>

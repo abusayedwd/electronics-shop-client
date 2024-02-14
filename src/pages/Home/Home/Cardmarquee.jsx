@@ -13,7 +13,7 @@ const Cardmarquee = () => {
       .then((data) => setFeatures(data)); 
   }, []);
    return (
-      <div className="bg-slate-100 py-10">
+      <div className="bg-slate-100 py-10 md:mt-0 mt-44">
          <h1 className="text-2xl font-bold text-center my-2 uppercase">latest product</h1>
          <div className="flex items-center shadow-xl rounded-md bg-white w-4/5 mx-auto">
            <Marquee speed={50}

@@ -1,15 +1,4 @@
-/* eslint-disable no-undef */
-/* eslint-disable no-unused-vars */
-// import { Swiper, SwiperSlide } from 'swiper/react';
-// import 'swiper/css';
-// import 'swiper/css/pagination';
-// import 'swiper/css/navigation';
-
-// // Import Swiper styles
-// import 'swiper/css';
-// import 'swiper/css/pagination';
-// import 'swiper/css/navigation';
-// import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+ 
 import React from 'react';
 import { motion } from 'framer-motion';
  
@@ -27,7 +16,7 @@ const Benner = () => {
         React.useEffect(() => {
                 const intervalId = setInterval(
                   () => setIndex((index) => index + 1),
-                  5000, // every 3 seconds
+                  3000, // every 3 seconds
                 );
                 return () => clearTimeout(intervalId);
               }, []);
@@ -48,7 +37,7 @@ const Benner = () => {
      
     const timer = setInterval(() => {
       setCurrentImage((prevImage) => (prevImage + 1) % backgroundImages.length);
-    }, 5000); 
+    }, 3000); 
 
     return () => clearInterval(timer); // Clean up the timer when the component unmounts
   }, [backgroundImages.length]);
@@ -107,7 +96,7 @@ const Benner = () => {
                              >Shop now</motion.button>       
                            
                         </div>
-                        <div className='w-[60%] mt-16 mx-auto'>
+                        <div className='w-[60%] md:mt-16 mx-auto'>
                                 <motion.div
                                 variants={fadein("left", 0.8)}
                                 initial="hidden"

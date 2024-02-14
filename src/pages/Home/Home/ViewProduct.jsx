@@ -12,6 +12,7 @@ import speaker1 from "../../../../public//speaker/speaker2.jpg";
 import speaker2 from "../../../../public/speaker/speaker3.jpg";
 import gamepad from "../../../../public/gamepad/game2.jpg";
 import drone from "../../../../public/dron/drone3.png";
+// import { Pagination } from "swiper/modules";
  
 
 const ViewProduct = () => {
@@ -20,14 +21,29 @@ const ViewProduct = () => {
       <h1 className="text-2xl font-bold p-6">Your Recently Viewed Products</h1>
 
       <Swiper
-        slidesPerView={5}
-        centeredSlides={true}
-        spaceBetween={30}
-        grabCursor={true}
-        pagination={{
-          clickable: true,
-        }}
-        className="bg-white w-[90%] flex-col items-center  mx-auto shadow-xl"
+      
+      slidesPerView={3}
+      spaceBetween={10}
+      pagination={{
+        clickable: true,
+      }}
+      breakpoints={{
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 5,
+          spaceBetween: 50,
+        },
+      }}
+      // modules={[Pagination]}
+       
+        className="bg-white mySwiper  w-[90%] flex-col items-center  mx-auto shadow-xl"
       >
         <SwiperSlide>
           <img className="py-8 cardbody h-40" src={watch1} alt="" />
@@ -59,7 +75,8 @@ const ViewProduct = () => {
         <SwiperSlide>
           <img className="py-8 cardbody h-40 " src={watch1} alt="" />
         </SwiperSlide>
-      </Swiper>
+      </Swiper> 
+
     </div>
   );
 };
